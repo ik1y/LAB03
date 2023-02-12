@@ -1,4 +1,5 @@
 public class Sorter {
+    
     public static void selectionSort(int[] list) {
         for (int i = 0; i < list.length - 1; i++) {
             int currentMin = list[i];
@@ -14,9 +15,10 @@ public class Sorter {
                 list[i] = currentMin;
 
             }
-
-        }        
+        }    
     }  
+
+
     public static void insetionSort(int[] list) {
         for (int i = 1; i < list.length; i++) {
             int currentElement = list[i];
@@ -26,5 +28,8 @@ public class Sorter {
             }
             list[k + 1] = currentElement;
         }
+    }
+    public static void sort(int[] list){
+        insetionSort(list);
     }
 }
