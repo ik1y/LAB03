@@ -17,6 +17,9 @@ public class Sorter {
             }
         }        
     }  
+    public static void sort(int[] list){
+        selectionSort(list);
+    }
 
 
     public static void insetionSort(int[] list) {
