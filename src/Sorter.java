@@ -1,5 +1,5 @@
 public class Sorter {
-    
+
     public static void selectionSort(int[] list) {
         for (int i = 0; i < list.length - 1; i++) {
             int currentMin = list[i];
@@ -15,7 +15,7 @@ public class Sorter {
                 list[i] = currentMin;
 
             }
-        }    
+        }        
     }  
 
 
