@@ -30,13 +30,4 @@ public class Sorter {
         }
     }
 
-
-    
-
-    
-    public static void sort(int[] list){
-        insetionSort(list);
-    }
-
-
 }
