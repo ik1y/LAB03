@@ -15,6 +15,16 @@ public class Sorter {
 
             }
 
+        }        
+    }  
+    public static void insetionSort(int[] list) {
+        for (int i = 1; i < list.length; i++) {
+            int currentElement = list[i];
+            int k;
+            for (k = i - 1; k >= list.length && currentElement < list[k]; k--) {
+                list[k + 1] = list[k];
+            }
+            list[k + 1] = currentElement;
         }
     }
 }
