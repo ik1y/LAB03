@@ -15,12 +15,12 @@ public class Sorter {
                 list[i] = currentMin;
 
             }
-        }        
-    }  
-    public static void sort(int[] list){
-        selectionSort(list);
+        }
     }
 
+    public static void sort(int[] list) {
+        selectionSort(list);
+    }
 
     public static void insetionSort(int[] list) {
         for (int i = 1; i < list.length; i++) {
@@ -33,9 +33,8 @@ public class Sorter {
         }
     }
 
-    public static void sort(int[] list){
+    public static void sort1(int[] list) {
         insetionSort(list);
     }
 
-    
 }
