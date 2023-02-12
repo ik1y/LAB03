@@ -33,7 +33,7 @@ public class Sorter {
         }
     }
 
-    public static void sort(int[] list){
+    public static void sort1(int[] list){
         insetionSort(list);
     }
 
