@@ -29,10 +29,12 @@ public class Sorter {
             list[k + 1] = currentElement;
         }
     }
+
+    
+    
     public static void sort(int[] list){
         insetionSort(list);
     }
-    
 
-    
+
 }
